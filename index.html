@@ -1,0 +1,50 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <p class="p">Переведення числа з однієї
+            системи до іншої</p>
+        <div class="container__item">
+            <div class="info__container">
+                <p>Введіть число: <input type="text" class="input_num"></p>   
+            </div>
+            <div class="item">
+                <div class="item__left">
+                    <p>Варіанти перетворення:</p>
+                    <select class="one__menu">
+                        <option value="2-8" >2 -> 8</option>
+                        <option value="2-10">2 -> 10</option>
+                        <option value="2-16">2 -> 16</option>
+                        <option value="8-2">8 -> 2</option>
+                        <option value="8-10">8 -> 10</option>
+                        <option value="8-16">8 -> 16</option>
+                        <option value="10-2">10 -> 2</option>
+                        <option value="10-8">10 -> 8</option>
+                        <option value="10-16">10 -> 16</option>
+                        <option value="16-2">16 -> 2</option>
+                        <option value="16-8">16 -> 8</option>
+                        <option value="16-10">16 -> 10</option>
+                    </select>
+                </div>
+            </div>
+            <a class="work">Обчислити</a>
+        </div>
+        <p class="p">Результат</p>
+        <div class="container__item">
+            <div class="result">
+                <div class="first__number">0</div>
+                <p>=</p>
+                <div class="second__number">0</div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="app.js"></script>
+</html>
